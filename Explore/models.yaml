@@ -1,0 +1,16 @@
+PARAMS: 
+  WEIGHTS: [[0.2, 0.2, 0.2, 0.2, 0.2], [1.0, 0, 0, 0, 0], [0.5, 0.5, 0, 0, 0], [0.5, 0.3, 0.2, 0, 0]] 
+  TOP_15PER: 31588
+  MODEL_ID: 1
+  DATE: 2
+  SPACE_DELTA: 3
+  TIME_DELTA: 4
+
+PATHS:
+  PATH_TO_PARCEL_GEO:  "Data/all_parcels_geo.csv"
+  PATH_TO_DUMMY: "Data/violation_dummy.csv"
+  PATH_TO_GEO_VIOLATIONS:  "Data/violation_geo.csv"
+  PATH_TO_MOI2:  "/mnt/data/economic_development/MLPPLab-Cincinnati/LAB/maps_validation_window.csv"
+  PATH_TO_MOI:  "/mnt/data/economic_development/MLPPLab-Cincinnati/LAB/models_for_maps.csv"
+  PATH_TO_MODELS: "/mnt/data/economic_development/MLPPLab-Cincinnati/LAB/data_for_postgres.csv"
+  PATH_TO_DENSITY: "Data/final_output.csv" 
